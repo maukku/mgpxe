@@ -1,18 +1,19 @@
 import "./App.css";
 import styled from "styled-components";
 
-import SearchBar from "./components/SearchBar";
+import SearchForm from "./components/SearchForm";
 import { ImagesList } from "./components/ImagesList";
+import { Logo } from "./components/Logo";
 const Container = styled.div`
-  width: 80%;
+  width: 60%;
 
   margin: auto;
 `;
 function App() {
   return (
     <Container>
-      <SearchBar />
-      <ImagesList />
+      <Logo></Logo>
+      <SearchForm />
     </Container>
   );
 }
