@@ -1,3 +1,6 @@
+
+### mgpxe - KoRo Frontend Assigment
+
 Thank you for considering my submission for the frontend position at Koro. I am excited to have the opportunity to showcase my skills through this assignment.
 
 For this project, I spent approximately 3-4 hours building a web app using React and Styled Components. The app connects to the Unsplash API and displays a list of random images to the user upon initial load. The user can then search for a specific keyword or phrase, and the app will display only images related to that keyword or phrase.
