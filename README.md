@@ -1,9 +1,9 @@
 
 
-## API Reference
+# mgpxe - KoRo Frontend Assigment
 
-### Get Random Items :
- Retrieve a single random photo, given optional filters.
+Find your favorite images instantaneously  with mgpxe
+
 
 
 For this project, I spent approximately 3-4 hours building a web app using React and Styled Components. The app connects to the Unsplash API and displays a list of random images to the user upon initial load. The user can then search for a specific keyword or phrase, and the app will display only images related to that keyword or phrase.
@@ -14,6 +14,10 @@ In addition to the core functionality described above, I also created the logo f
 
 I hope you find my submission satisfactory and I look forward to discussing the opportunity further. Thank you for considering my application.
 
+## API Reference
+
+### Get Random Items :
+ Retrieve a single random photo, given optional filters.
 
 ```http
 GET /photos/random
