@@ -1,7 +1,10 @@
 
-# mgpxe - KoRo Frontend Assigment
 
-Thank you for considering my submission for the frontend position at Koro. I am excited to have the opportunity to showcase my skills through this assignment.
+## API Reference
+
+### Get Random Items :
+ Retrieve a single random photo, given optional filters.
+
 
 For this project, I spent approximately 3-4 hours building a web app using React and Styled Components. The app connects to the Unsplash API and displays a list of random images to the user upon initial load. The user can then search for a specific keyword or phrase, and the app will display only images related to that keyword or phrase.
 
@@ -10,3 +13,19 @@ I encountered a few difficulties while working on this assignment. One of the ma
 In addition to the core functionality described above, I also created the logo for the app. I took care to ensure that the logo is original and free of any copyright issues.
 
 I hope you find my submission satisfactory and I look forward to discussing the opportunity further. Thank you for considering my application.
+
+
+```http
+GET /photos/random
+```
+
+
+### Search photos :
+Get a single page of photo results for a query.
+
+
+
+```http
+GET /search/photos
+```
+
