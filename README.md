@@ -1,5 +1,5 @@
 
-### mgpxe - KoRo Frontend Assigment
+# mgpxe - KoRo Frontend Assigment
 
 Thank you for considering my submission for the frontend position at Koro. I am excited to have the opportunity to showcase my skills through this assignment.
 
