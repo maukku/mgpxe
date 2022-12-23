@@ -1,6 +1,7 @@
 {
   "name": "koro-app",
   "version": "0.1.0",
+  "homepage": "https://maukku.github.io/mgpxe",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
