@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { ImagesList } from "./ImagesList";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -6,8 +6,6 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const Container = styled.div`
   width: 100%;
-  margin-block: 20px;
-  display: grid;
 `;
 
 const SearchContainer = styled.div`
@@ -37,8 +35,19 @@ const SearchInput = styled.input`
   outline: none;
 `;
 
-const SearchForm = () => {
+const MainContent = () => {
   const [query, setQuery] = useState("");
+  const [debouncedQuery, setDebouncedQuery] = useState(query);
+  useEffect(() => {
+    //  debounce function to delay the search until after the user has stopped typing for a certain amount of time
+    const debounce = setTimeout(() => {
+      setDebouncedQuery(query);
+    }, 500);
+
+    return () => {
+      clearTimeout(debounce);
+    };
+  }, [query]);
   return (
     <Container>
       <SearchContainer>
@@ -51,9 +60,9 @@ const SearchForm = () => {
         />
       </SearchContainer>
 
-      <ImagesList query={query} />
+      <ImagesList query={debouncedQuery} />
     </Container>
   );
 };
 
-export default SearchForm;
+export default MainContent;

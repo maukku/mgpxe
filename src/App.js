@@ -1,7 +1,7 @@
 import "./App.css";
 import styled from "styled-components";
 
-import SearchForm from "./components/SearchForm";
+import SearchForm from "./components/MainContent";
 import { ImagesList } from "./components/ImagesList";
 import { Logo } from "./components/Logo";
 const Container = styled.div`
@@ -12,7 +12,7 @@ const Container = styled.div`
 function App() {
   return (
     <Container>
-      <Logo></Logo>
+      <Logo />
       <SearchForm />
     </Container>
   );
