@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mgpxe/static/css/main.e6c13ad2.css",
+    "main.js": "/mgpxe/static/js/main.b844a890.js",
+    "static/js/787.9232155c.chunk.js": "/mgpxe/static/js/787.9232155c.chunk.js",
+    "static/media/logoKoRo.png": "/mgpxe/static/media/logoKoRo.f94473e603461df0e37c.png",
+    "index.html": "/mgpxe/index.html",
+    "main.e6c13ad2.css.map": "/mgpxe/static/css/main.e6c13ad2.css.map",
+    "main.b844a890.js.map": "/mgpxe/static/js/main.b844a890.js.map",
+    "787.9232155c.chunk.js.map": "/mgpxe/static/js/787.9232155c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.b844a890.js"
+  ]
+}
